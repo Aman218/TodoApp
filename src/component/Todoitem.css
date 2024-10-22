@@ -1,0 +1,45 @@
+.item-container{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #FAFAFF;
+    padding: 0.4rem;
+}
+.edit-btn,.delete-btn,.save-btn{
+    padding: 0.1rem 0.5rem;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    border-radius: 4px;
+}
+.edit-btn,.save-btn{
+    margin-right: 0.3rem;
+}
+.edit-btn:hover{
+    background-color: #FFFF82;
+    color: #9f92b7;
+}
+.delete-btn:hover{
+    background-color: #FFFF82;
+    color: #9f92b7;
+}
+.tick-btn{
+    width: 1.4rem;
+    height: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFF82;
+}
+.left-cont{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+.input-field{
+    padding: 0.3rem 1rem;
+    background-color: #273469;
+    outline: #FFFF82;
+    border: 1px solid  #FFFF82;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}

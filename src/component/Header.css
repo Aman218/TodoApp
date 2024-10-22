@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+.todo-container{
+   width: 85%;
+   margin: 1rem auto;
+   /* background-color: rgb(184, 35, 35); */
+   /* box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 8px; */
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   padding-bottom: 0.3rem;
+}
+.header{
+    margin: 0.5rem;
+    color: #f6f65b;
+    font-weight: 800;
+    text-shadow: 2px 2px 0px #1d13d172, 5px 4px 0px rgba(31, 58, 207, 0.15);
+}
+.inputbox{
+    width: 100%;
+    /* background-color: yellow; */
+    text-align: center;
+    padding: 0.2rem;
+    display: flex;
+    justify-content: center;
+}
+#input-box{
+    width: 50%;
+    padding: 0.4rem 2rem;
+    font-size: 1rem;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.594);
+}
+#input-box:focus{
+ outline: 1px solid rgb(44, 14, 238);
+ border: 1px solid rgba(0, 0, 0, 0);
+}
+.add-btn{
+    width: 12%;
+    margin-left: 0.9rem;
+    padding: 0.6rem 2rem;
+    font-size: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0);
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    background-color: #FFFF82;
+    justify-content: center;
+}
+.add-btn:hover{
+    color: whitesmoke;
+    background-color: rgb(7, 7, 60);
+    font-weight: 400;
+}
+
+@media (max-width:1055px) {
+    .add-btn{
+        width: 20%;
+    }
+    #input-box{
+        width: 60%;
+    }
+}
+@media (max-width:559px) {
+    .add-btn{
+        width: 30%;
+    }
+    #input-box{
+        width: 60%;
+    }
+}
+@media (max-width:500px){
+    html{
+        font-size: 12px;
+    }
+}

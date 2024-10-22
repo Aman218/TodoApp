@@ -1,0 +1,27 @@
+.todolist-container{
+    width: 60%;
+    margin: 0.1rem auto;
+    background-color: #273469;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.284);
+    color: #FAFAFF;
+    box-shadow: rgba(226, 229, 231, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+ul{
+    list-style: none;
+}
+@media (max-width:1084px) {
+    .todolist-container{
+        width: 70%;
+    }
+}
+@media (max-width:844px) {
+    .todolist-container{
+        width: 80%;
+    }
+}
+@media (max-width:574px) {
+    .todolist-container{
+        width: 90%;
+    }
+}
