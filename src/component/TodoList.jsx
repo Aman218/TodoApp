@@ -1,5 +1,5 @@
 
-import './todolist.css';
+import './TodolIst.css';
 import ToDoItem from "./ToDoItem";
 function ToDoList(props){
   console.log(props);
